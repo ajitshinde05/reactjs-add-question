@@ -1,0 +1,207 @@
+.container_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+
+    
+}
+
+.background_div{
+    width: 100%;
+    height: 84vh;
+    background-color: white;
+    border-radius: 10px;
+    border: 1;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: scroll;
+    
+    
+}
+.add_question{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-transform: capitalize;
+    
+}
+.sub_text{
+    text-align: center;
+    margin-bottom: 6%;
+    width: 80%;
+    align-self: center;
+}
+.categories_div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;   
+}
+.questionform{
+    width: 100%;
+    /* ÷display: flex; */
+    /* justify-content: space-around; */
+}
+.sub_category,
+.topic,
+.category{
+    width: 30%;
+}
+.label{
+    margin-bottom: 2%;
+    font-size: 14px;
+}
+.select_category{
+    /* background-color: #f4f4f4; */
+    margin-top: 0%;
+    font-size: 14px;
+    padding: 1;
+    
+}
+.question_lable{
+    margin-bottom: 2%;
+    font-size: 14px;
+}
+.question_input{
+    width: 100%;
+    height: 8vh;
+    font-size: 14px;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    /* background-color: #f4f4f4; */
+    
+    /* text-transform: capitalize; */
+}
+
+.option_div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    
+}
+.option1{
+    width: 46%;
+    height: 5vh;
+    /* text-transform: capitalize; */
+    text-align: center;
+    font-size: 14px;
+    padding-left: 2%;
+    /* background-color: #f4f4f4; */
+}
+.button_div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.submit_btn{
+    background-color: darkblue;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 5%;
+    margin-bottom: 0%;
+}
+.cancel_btn{
+    background-color: white;
+    /* color: white; */
+    padding: 1%;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+    border: 1;
+    border: 0.1 solid;
+    border-color: black;
+    /* background-color: #f4f4f4; */
+}
+
+@media screen and (max-width : 780px){
+    .background_div{
+        width: 100%;
+        height: 84vh;
+        background-color: white;
+        border-radius: 10px;
+        border: 1;
+        align-items: center;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+        
+    .sub_text{
+        text-align: center;
+        margin-bottom: 6%;
+        width: 100%;
+        align-self: center;
+    }
+    .questionform{
+        width: 100%;
+        /*
+         display: flex;
+        flex-direction: column;
+        justify-content: none; */
+    }
+    .categories_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+    }
+    .topic,
+    .sub_category,
+    .category{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .option_div{
+        display: flex;
+        justify-content: none;
+        margin-bottom: 1.5%;
+        flex-direction: column;
+        
+    }
+    .option1{
+        /* background-color: #f4f4f4; */
+        width: 100%;
+        height: 5vh;
+        /* text-transform: capitalize; */
+        text-align: center;
+        font-size: 14px;
+        padding-left: 2%;
+        margin-bottom: 2%;
+    }
+    .button_div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .submit_btn{
+        background-color: darkblue;
+        color: white;
+        padding: 1.6%;
+        border-radius: 10px;
+        width: 30%;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 3%;
+        margin-right: 0%;
+    }
+    .cancel_btn{
+        /* background-color: #f4f4f4; */
+        /* color: white; */
+        padding: 1.6%;
+        border-radius: 10px;
+        width: 30%;
+        height: 5vh;
+        text-align: center;
+        font-size: 14px;
+        border: 0.1 solid;
+        border-color: black;
+    }
+
+}
